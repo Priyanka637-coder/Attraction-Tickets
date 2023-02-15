@@ -1,0 +1,21 @@
+<div>
+  <h1> {{ data.title }} </h1>
+  <table class="table" }}>
+  <thead>
+        <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Destination</th>
+        </tr>
+    </thead>
+  {% for item in data.products.data %}
+    <tbody>
+        <tr>
+            <td><img src="{{ item.img_sml }}"/></td>
+            <td>{{ item.title }}</td>
+            <td>{{ item.dest }}</td>
+        </tr>
+    </tbody>
+  {% endfor %}
+  </table>
+</div>

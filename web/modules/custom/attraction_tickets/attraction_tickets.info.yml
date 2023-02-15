@@ -1,0 +1,5 @@
+name: Attraction Tickets
+description: Build search functionality to filter through API response data.  
+type: module
+core_version_requirement: ^9.2 || ^10
+

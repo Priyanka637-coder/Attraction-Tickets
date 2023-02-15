@@ -1,0 +1,5 @@
+/composer.lock
+/vendor
+/web/sites/default/settings.php
+/web/sites/default/files
+/web/modules/contrib

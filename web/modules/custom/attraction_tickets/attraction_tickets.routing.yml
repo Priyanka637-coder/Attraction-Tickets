@@ -1,0 +1,7 @@
+attraction_tickets.products:
+  path: '/products'
+  defaults:
+    _controller: 'Drupal\attraction_tickets\Controller\AtsController::content'
+    _title: 'Product Search'
+  requirements:
+    _permission: 'access content'

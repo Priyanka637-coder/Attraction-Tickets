@@ -1,0 +1,6 @@
+
+services:
+
+  attraction_tickets.client:
+    class: Drupal\attraction_tickets\Client\MyClient
+    arguments: ['@http_client','@config.factory']
